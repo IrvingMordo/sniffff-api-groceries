@@ -1,4 +1,4 @@
-import ProductDAO from "../dao/products.dao.js";
+import ProductDAO from "../DAO/products.dao.js";
 
 export const getAll = (req, res) =>{
     ProductDAO.getAll()
