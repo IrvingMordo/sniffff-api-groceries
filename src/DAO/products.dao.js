@@ -1,4 +1,4 @@
-import Product from "../models/products.model.js";
+import Product from "../Models/products.model.js";
 const ProductDAO={};
 ProductDAO.getAll=async()=>{
     const products=await Product.find({});
