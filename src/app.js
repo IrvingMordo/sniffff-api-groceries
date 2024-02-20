@@ -1,7 +1,7 @@
 import express from 'express';
 import morgan from 'morgan';
 import { config } from 'dotenv';
-import router from './Routes/products.routes.js';
+import productsRouter from './Routes/products.routes.js';
 config();
 
 const app = express();
